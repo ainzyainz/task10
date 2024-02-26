@@ -14,6 +14,9 @@ import java.io.Serializable;
 @Entity
 @ToString
 @Table(name = "task")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "type",discriminatorType = DiscriminatorType.CHAR)
+@DiscriminatorValue("T")
 public class Task extends MultiID implements Serializable {
 
     @Column
