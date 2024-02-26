@@ -13,7 +13,6 @@ import java.io.Serializable;
 @Entity
 @ToString
 @Table(name = "work_task")
-@DiscriminatorValue("W")
 public class WorkTask extends Task  {
 
     @Column
