@@ -3,4 +3,8 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.9.xsd">
     <include file="changeSets/task.xml"
              relativeToChangelogFile="true"/>
+    <include file="changeSets/homeTask.xml"
+             relativeToChangelogFile="true"/>
+    <include file="changeSets/workTask.xml"
+             relativeToChangelogFile="true"/>
 </databaseChangeLog>
