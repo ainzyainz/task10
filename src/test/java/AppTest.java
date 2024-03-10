@@ -1,5 +1,5 @@
 
-import Util.HibernateUtils;
+import util.HibernateUtils;
 import dao.HomeTaskDAOImpl;
 import dao.WorkTaskDAOImpl;
 import entity.HomeTask;
