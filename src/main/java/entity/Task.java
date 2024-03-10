@@ -14,6 +14,7 @@ import java.io.Serializable;
 @Entity
 @ToString
 @Table(name = "task")
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Task extends MultiID implements Serializable {
 
     @Column

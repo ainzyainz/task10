@@ -13,6 +13,7 @@ import java.io.Serializable;
 @Entity
 @ToString
 @Table(name = "work_task")
+@PrimaryKeyJoinColumn(name="task_id")
 public class WorkTask extends Task  {
 
     @Column
